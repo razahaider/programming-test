@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class problem4 {
+
+	public static void main(String[] args) {
+		
+		
+		String ss = "Good Morning! have a fantastic weekend" ;
+
+		System.out.println(ss);
+		
+		String search1="o";
+		String ss2= "I amappearing for program test";
+		
+		
+		System.out.println(ss2);
+		
+		String search2 = "a";
+		
+		for(int i=0; i<ss.length();i++) {
+			
+			if(ss.charAt(i)==search1.charAt(0)) {
+				System.out.println(i);
+			}
+		}
+for(int i=0; i<ss2.length();i++) {
+			
+			if(ss2.charAt(i)==search2.charAt(0)) {
+				System.out.println(i);
+			}
+	}
+	}
+}
+
+
